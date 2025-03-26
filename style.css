@@ -1,0 +1,12 @@
+/* 오방색 테마 */
+.bg-yellow {
+    background-color: #fffacd; /* 밝은 노란색 */
+}
+
+.text-blue {
+    color: #4682b4; /* 톤 다운된 파란색 */
+}
+
+.text-red {
+    color: #dc143c; /* 톤 다운된 빨간색 */
+}
