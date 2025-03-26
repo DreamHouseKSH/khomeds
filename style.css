@@ -10,3 +10,10 @@
 .text-red {
     color: #dc143c; /* 톤 다운된 빨간색 */
 }
+
+/* 추가 스타일 */
+.jumbotron {
+    background-image: url('hero-background.jpg'); /* 배경 이미지 */
+    background-size: cover;
+    color: white;
+}
