@@ -3,57 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>연락처 - 다한지리정보(주)</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <title>DahanGIS - 연락처</title>
+    <style>
+        body { font-family: sans-serif; }
+        .container { width: 80%; margin: 0 auto; }
+        h1 { text-align: center; }
+        .contact-info { margin-bottom: 20px; }
+        img { max-width: 50%; height: auto; display: block; margin: 0 auto; }
+    </style>
 </head>
 <body>
-    <header class="bg-yellow py-3">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h1 class="text-dark">다한지리정보(주)</h1>
-                    <p class="text-muted">GIS 활성호아 선두 업체</p>
-                </div>
-                <div class="col-md-6 text-right">
-                    <nav>
-                        <a href="index.html" class="text-blue mx-2">홈</a>
-                        <a href="about.html" class="text-blue mx-2">회사 소개</a>
-                        <a href="services.html" class="text-blue mx-2">제품/서비스</a>
-                        <a href="#" class="text-blue mx-2">연락처</a>
-                    </nav>
-                </div>
-            </div>
+    <div class="container">
+        <h1>DahanGIS - 언제든지 문의하십시오.</h1>
+        <p>DahanGIS에 대한 문의사항은 언제든지 환영합니다. 아래 연락처로 문의하시거나 문의 양식을 작성해 주시면 신속하게 답변드리겠습니다.</p>
+
+        <div class="contact-info">
+            <h2>연락처 정보</h2>
+            <p><strong>주소:</strong> (추후 정보 업데이트 예정)</p>
+            <p><strong>전화번호:</strong> (추후 정보 업데이트 예정)</p>
+            <p><strong>이메일:</strong> (추후 정보 업데이트 예정)</p>
+            <p><strong>웹사이트:</strong> (추후 정보 업데이트 예정)</p>
+            <p><strong>영업 시간:</strong> (추후 정보 업데이트 예정)</p>
         </div>
-    </header>
 
-    <main>
-        <section class="py-5">
-            <div class="container">
-                <h2>연락처</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <p><strong>주소:</strong> 경기도 고양시 일산서구 킨텍스로 240, GIFC 오피스 2211호(대화동, 킨텍스 꿈이그린)</p>
-                        <p><strong>전화:</strong> 031-XXX-XXXX</p>
-                        <p><strong>이메일:</strong> info@example.com</p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="contact-map.png" alt="회사 위치 지도" class="img-fluid rounded">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+        <!-- 이미지 삽입 위치 -->
+        <img src="contact_us_image.jpg" alt="DahanGIS 회사 건물">
 
-    <footer class="bg-dark text-white py-4">
-        <div class="container">
-            <p>© 2023 다한지리정보(주). All rights reserved.</p>
-            <p>경기도 고양시 일산서구 킨텍스로 240, GIFC 오피스 2211호(대화동, 킨텍스 꿈이그린)</p>
-        </div>
-    </footer>
+        <h2>문의 양식</h2>
+        <form action="#" method="post">
+            <label for="name">이름:</label><br>
+            <input type="text" id="name" name="name"><br><br>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <label for="email">이메일:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="subject">제목:</label><br>
+            <input type="text" id="subject" name="subject"><br><br>
+
+            <label for="message">내용:</label><br>
+            <textarea id="message" name="message" rows="5"></textarea><br><br>
+
+            <input type="submit" value="문의하기">
+        </form>
+    </div>
 </body>
 </html>
